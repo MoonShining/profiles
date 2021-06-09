@@ -17,7 +17,13 @@ Plugin 'altercation/vim-colors-solarized'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
+
 let g:NERDTreeNodeDelimiter = "\u00a0"
+
+" solarized options
+let g:solarized_visibility = "high"
+let g:solarized_contrast = "high"
+let g:solarized_termcolors=256
 
 map <C-n> :NERDTreeToggle<CR>
 map <C-f> :Ack!<Space>
