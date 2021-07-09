@@ -14,6 +14,7 @@ Plugin 'majutsushi/tagbar'
 Plugin 'kien/ctrlp.vim'
 Plugin 'mileszs/ack.vim'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'winresizer.vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
