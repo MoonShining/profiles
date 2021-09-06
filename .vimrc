@@ -20,6 +20,7 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 
 let g:NERDTreeNodeDelimiter = "\u00a0"
+autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
 
 " solarized options
 let g:solarized_visibility = "high"
